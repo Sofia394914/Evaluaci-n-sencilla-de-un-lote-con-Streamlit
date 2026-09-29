@@ -1,8 +1,8 @@
 import streamlit as st
 st.title("Evaluación de un lote")
-st.sidebar.write("Sofia Ontiveros Molina
-                 3L
-                 Facultad de Ciencias Quimicas")
+st.sidebar.write("Sofia Ontiveros Molina")
+st.siderbar.write("3L")
+st.siderbar.write("Facultad de Ciencias Quimicas")
 pH = st.number_input("pH",value=6.5)
 
 temperatura = st.number_input("Temperatura (°C)",value=23.0)
